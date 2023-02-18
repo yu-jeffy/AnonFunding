@@ -1,0 +1,13 @@
+AnonFunding
+
+FULLY OPEN SOUCE, FORK AND MODIFY FOR YOUR OWN CROWDFUNDING PURPOSES. OPEN TO CONTRIBUTIONS.
+
+contract has balance
+
+if certain threshold amount is reached, it is withdrawable to contract owner.
+
+otherwise, once time limit is reached, return all money back to donors using contract balance as gas fees.
+
+ownable.sol from openzeppelin for account owner, renounceownership of contract if time expires without enough donations.
+
+
